@@ -1,0 +1,48 @@
+/* Cabeçalho */
+.navbar-dark {
+    background-color: #343a40; /* Cor de fundo escura para o cabeçalho */
+}
+
+.navbar-brand {
+    font-size: 1.5rem; /* Tamanho da fonte */
+    font-weight: bold; /* Negrito */
+    color: #ffffff; /* Texto branco */
+}
+
+.navbar-text {
+    display: flex;
+    align-items: center;
+}
+
+/* Botão de Logout */
+.navbar-nav .btn-danger {
+    background-color: #dc3545; /* Vermelho para o botão */
+    border-color: #dc3545; /* Vermelho para a borda do botão */
+}
+
+.navbar-nav .btn-danger:hover {
+    background-color: #c82333; /* Vermelho escuro para hover */
+    border-color: #bd2130; /* Vermelho escuro para a borda do botão */
+}
+
+/* Navegação Lateral (Sidebar) */
+.sidebar {
+    background-color: #f8f9fa; /* Cor clara para o fundo da sidebar */
+}
+
+.sidebar .nav-link {
+    color: #000000; /* Texto preto para os links da sidebar */
+}
+
+.sidebar .nav-link:hover {
+    color: #007bff; /* Azul para o hover */
+}
+
+/* Estilo Principal */
+.container-fluid {
+    background-color: #ffffff; /* Fundo branco para o conteúdo principal */
+}
+
+main {
+    padding: 1rem;
+}
