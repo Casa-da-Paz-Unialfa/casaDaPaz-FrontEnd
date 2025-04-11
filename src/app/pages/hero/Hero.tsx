@@ -2,7 +2,7 @@
 
 import React from 'react';
 import { Link } from 'react-scroll';
-import bgImg from '../../assets/background.jpg';
+import bgImg from '../../assets/vacina.png';
 
 const Hero: React.FC = () => {
   return (
@@ -18,11 +18,13 @@ const Hero: React.FC = () => {
           style={{ fontFamily: "'Comic Neue', cursive" }}
         >
           <h1 className="text-4xl sm:text-5xl md:text-7xl font-bold mb-6 leading-tight">
-            Casa da Paz
+            Secretária de Saúde Umuarama
           </h1>
           <p className="text-lg sm:text-xl md:text-2xl mb-8 leading-relaxed">
-            “Sei que meu trabalho é uma gota no oceano, mas sem ele, o oceano seria menor" – 
-            <span className="italic"> Santa Teresa de Calcutá</span>.
+            <span className="italic"> Vacinar é um ato de amor</span>.
+            <br />
+            Amor por você, pela sua família e por toda a comunidade.
+            Proteja quem você ama. Vacine-se!
           </p>
 
           {/* Botões responsivos */}
@@ -34,7 +36,7 @@ const Hero: React.FC = () => {
               duration={500}
               className="py-3 px-6 text-lg rounded-lg bg-[#89b72d] text-white hover:bg-[#6f9e24] transition-colors duration-300 text-center"
             >
-              Conheça a Casa da Paz
+              Agende sua vacina!
             </Link>
 
             <Link
@@ -45,7 +47,7 @@ const Hero: React.FC = () => {
               className="py-3 px-6 text-lg border border-white text-white bg-transparent hover:bg-white hover:text-black transition-colors rounded-lg font-bold text-center"
               aria-label="Saiba como doar"
             >
-              Saiba como doar
+              Minhas vacinas
             </Link>
           </div>
         </div>
